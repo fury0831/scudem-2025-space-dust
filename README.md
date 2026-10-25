@@ -101,3 +101,23 @@ python run.py scan --t-max .2 --dt .001 --output results/smoke-scan
 - 可用原源码是质量状态实现，不包含报告所述独立半径状态求解器或纳米尺度图的生成代码。不能把当前运行称为这些报告图的完整复现。
 
 Copyright (c) 2025 Fengrui Zhang, Yiye Huang, Zening Wang。使用与再分发请保留 [MIT 许可证](LICENSE) 要求的声明。
+
+## Archived interactive figures / 原始交互图
+
+[Open the figures on demand / 按需打开交互图](https://fury0831.github.io/scudem-2025-space-dust/)
+
+| File | Metric | Original size |
+| --- | --- | ---: |
+| [meteor_simulation1.html](docs/meteor_simulation1.html) | Altitude / 高度 | 19.37 MB |
+| [meteor_simulation2.html](docs/meteor_simulation2.html) | Radius remaining / 剩余半径 | 19.55 MB |
+| [meteor_simulation3.html](docs/meteor_simulation3.html) | Velocity / 速度 | 20.59 MB |
+
+These original files animate precomputed data, not a live ODE solver. Their exact original bytes are preserved; see [hash manifest](docs/ARCHIVE_MANIFEST.json). Opening a file starts its archived animation. The portfolio does not preload or embed the large files. Use a desktop browser and Reset axes if a previous frame leaves an unsuitable axis range.
+
+Each figure contains 32 velocity frames (6–68 km/s, step 2) × 6 radii (0.001–100 μm). Of 192 trajectories, 54 record through 100 s, 125 stop at 0.01 s, and 13 end between 0.02 and 0.13 s. Stop reasons and the frame-generating solver were not supplied. A shortened curve or zero radius does not prove complete ablation; all recorded altitude endpoints remain above ground. The radius plot is not a mass-fraction plot.
+
+The HTML velocity data are nonnegative, unlike one older report figure. Version equivalence has not been established. During local review all three plots rendered, parameter controls worked, and one `Uncaught (in promise)` console error was observed during velocity-slider/reset interactions; the plot remained usable. The historical files are preserved rather than silently repaired or regenerated.
+
+三份文件保留原始字节和数据，属于预计算交互图，不是实时模拟。历史动画加载后会自动播放，建议桌面浏览。部分曲线非常短且无终止原因标签，不能称为地面存活结果；HTML 速度与报告旧图有差异，尚不能证明同一版本。第三张图在滑块/重置操作期间出现过一条 Promise 错误，仍可显示；没有为消除错误而更改历史文件。
+
+Plotly.js and bundled components keep their original licenses. See [third-party notices](docs/licenses/THIRD_PARTY_NOTICES.md). No original report, presentation template, certificate or signatures are included.

@@ -1,0 +1,23 @@
+{
+  "note": "Original uploaded file bytes, unchanged. Precomputed figures; not rerun.",
+  "files": [
+    {
+      "path": "docs/meteor_simulation1.html",
+      "bytes": 19370085,
+      "sha256": "8372a084b2629323dafcb1f19b383ed30c3f0c5b7f94cfa036deb171f53fc4bf",
+      "metric": "altitude_km"
+    },
+    {
+      "path": "docs/meteor_simulation2.html",
+      "bytes": 19552602,
+      "sha256": "cd84b153dd5ff5af992c08cbf93db205a73e6e16fc57f42846659d05459dde65",
+      "metric": "radius_remaining_percent"
+    },
+    {
+      "path": "docs/meteor_simulation3.html",
+      "bytes": 20590584,
+      "sha256": "7b0612d2d634dfd9e2b2ec1ab650a88615d876d3fcde1666b88f2d8cb4471b32",
+      "metric": "velocity_km_per_s"
+    }
+  ]
+}

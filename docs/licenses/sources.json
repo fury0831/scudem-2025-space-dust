@@ -1,0 +1,154 @@
+[
+  {
+    "file": "PLOTLY-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/plotly/plotly.js/v2.35.2/LICENSE",
+    "bytes": 1078,
+    "sha256": "67a26cf80f03ff388f26945dfc1f6caed1a0746ff43871190339b3aee49b94bb",
+    "status": "downloaded",
+    "bundle_verification": {
+      "official_package_url": "https://registry.npmjs.org/plotly.js-dist-min/-/plotly.js-dist-min-2.35.2.tgz",
+      "archive_sha1": "0d08bcc5dac84c44c36eccdfffdcfd2a6cbefe11",
+      "archive_sha1_matches_registry": true,
+      "official_js_sha256": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603",
+      "official_js_sha256_after_LF_to_CRLF": "de3be007a25aa90cabc6d36479046dafa3babeec1001149ab04940a7642083e4",
+      "matches_first_html_embedded_plotly": true,
+      "dist_min_package_files": [
+        "LICENSE",
+        "plotly.min.js",
+        "package.json",
+        "README.md"
+      ],
+      "note": "The sidecar is omitted from plotly.js-dist-min but exists in the full plotly.js@2.35.2 package and Plotly CDN."
+    }
+  },
+  {
+    "file": "plotly.min.js.LICENSE.txt",
+    "url": "https://cdn.plot.ly/plotly-2.35.2.min.js.LICENSE.txt",
+    "bytes": 1338,
+    "sha256": "9144a55454d7944bd0695179ec85956de3d08a64c5227ffa2d45da186ec8445a",
+    "status": "downloaded",
+    "package_evidence": "Full plotly.js@2.35.2 published package metadata lists dist/plotly.min.js.LICENSE.txt, 1338 bytes; CDN bytes match listed SHA256."
+  },
+  {
+    "file": "MAPLIBRE-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/maplibre/maplibre-gl-js/v4.5.2/LICENSE.txt",
+    "bytes": 5984,
+    "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+    "status": "downloaded"
+  },
+  {
+    "file": "IEEE754-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/feross/ieee754/v1.2.1/LICENSE",
+    "bytes": 1465,
+    "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1",
+    "status": "downloaded",
+    "version_source": "Official Plotly v2.35.2 package-lock.json: node_modules/ieee754 version 1.2.1"
+  },
+  {
+    "file": "polybooljs-1.2.2-LICENSE.txt",
+    "url": "https://unpkg.com/polybooljs@1.2.2/LICENSE",
+    "package": "polybooljs",
+    "version": "1.2.2",
+    "bytes": 1108,
+    "sha256": "6a3969e97bc3b992c17bfdcd6fcabd9b5688650cc0078235d512c014e86b716e",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "file": "object-assign-4.1.1-LICENSE.txt",
+    "url": "https://unpkg.com/object-assign@4.1.1/license",
+    "package": "object-assign",
+    "version": "4.1.1",
+    "bytes": 1119,
+    "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "file": "buffer-5.7.1-LICENSE.txt",
+    "url": "https://unpkg.com/buffer@5.7.1/LICENSE",
+    "package": "buffer",
+    "version": "5.7.1",
+    "bytes": 1106,
+    "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "file": "buffer-6.0.3-LICENSE.txt",
+    "url": "https://unpkg.com/buffer@6.0.3/LICENSE",
+    "package": "buffer",
+    "version": "6.0.3",
+    "bytes": 1106,
+    "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "file": "safe-buffer-5.1.2-LICENSE.txt",
+    "url": "https://unpkg.com/safe-buffer@5.1.2/LICENSE",
+    "package": "safe-buffer",
+    "version": "5.1.2",
+    "bytes": 1081,
+    "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "file": "safe-buffer-5.2.1-LICENSE.txt",
+    "url": "https://unpkg.com/safe-buffer@5.2.1/LICENSE",
+    "package": "safe-buffer",
+    "version": "5.2.1",
+    "bytes": 1081,
+    "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+    "status": "downloaded",
+    "version_source": "Plotly v2.35.2 package-lock.json; multiple locked versions retained when applicable"
+  },
+  {
+    "package": "native-promise-only",
+    "version": "0.8.1",
+    "status": "license-not-found",
+    "files": [
+      "/package.json",
+      "/.npmignore",
+      "/README.md",
+      "/build.js",
+      "/npo.js",
+      "/test_adapter.js",
+      "/lib/npo.src.js"
+    ]
+  },
+  {
+    "file": "is-buffer-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/feross/is-buffer/master/LICENSE",
+    "package": "is-buffer",
+    "bytes": 1081,
+    "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+    "status": "downloaded",
+    "version_note": "Identified by official Plotly 2.35.2 sidecar; exact embedded component version not stated; upstream license snapshot"
+  },
+  {
+    "file": "pad-left-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/jonschlinkert/pad-left/master/LICENSE",
+    "package": "pad-left",
+    "bytes": 1088,
+    "sha256": "daca23d50b0f54d36d6da1b16c82dfea6461e2ae20de0e869957e44cc6d34781",
+    "status": "downloaded",
+    "version_note": "Identified by official Plotly 2.35.2 sidecar; exact embedded component version not stated; upstream license snapshot"
+  },
+  {
+    "file": "repeat-string-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/jonschlinkert/repeat-string/master/LICENSE",
+    "package": "repeat-string",
+    "bytes": 1088,
+    "sha256": "82dbf3747ad5848807b32c50e787565e184ced06c1f3385b01e1b7ef4f587d8a",
+    "status": "downloaded",
+    "version_note": "Identified by official Plotly 2.35.2 sidecar; exact embedded component version not stated; upstream license snapshot"
+  },
+  {
+    "package": "native-promise-only",
+    "url": "https://getify.mit-license.org/license.txt",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
